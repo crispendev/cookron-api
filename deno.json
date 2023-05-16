@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-env src/index.ts",
+    "dev": "deno run --watch --allow-net --allow-read --allow-env src/index.ts"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}
